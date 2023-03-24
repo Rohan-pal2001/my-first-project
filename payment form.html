@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+    <link rel="stylesheet" href="payment form.css">
+</head>
+<body>
+    <div class="contain">
+    <h1 style="background-color: grey;" >Payment form</h1>
+    <p style="background-color: rgba(235, 241, 242, 0.978);" >Buyer name:* <input type="text" name="name"></p>
+    <p style="background-color: rgba(235, 241, 242, 0.978);">Email address:* <input type="email" name="email"></p>
+    <p style="background-color: rgba(235, 241, 242, 0.978);">course starting month:* <input type="month" name="course"></p>
+    <p style="background-color: rgba(235, 241, 242, 0.978);">card type:
+        <select name="card_type" id="card_type">
+            <option value="--select a card type--"></option>
+            <option value="Visa"></option>
+            <option value="Master card"></option>
+            <option value="upi"></option>
+
+        </select>
+    </p>
+        <p style="background-color: rgba(235, 241, 242, 0.978);">card no:* <input type="number" name="card no" id="card no"></p>
+        <p style="background-color: rgba(235, 241, 242, 0.978);">CVV <input type="password" name="cvv" name="cvv" ></p>
+        <p style="background-color: rgba(235, 241, 242, 0.978);">Expiration date:* <input type="date" name="date" id="date"></p>
+        <input style="background-color: rgb(89, 178, 106);" type="submit" name="Paynow">
+
+    </div>
+</body>
+</html>
